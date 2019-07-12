@@ -1,20 +1,38 @@
 package com.xiaqi.entity;
 
+/**
+ * 用户登录信息实体，对应表：user_login_info
+ */
 public class UserLoginInfo {
     /**
-     * 用户id，唯一标识
+     * 用户id，唯一标识一个用户
      */
     private Long id;
 
+    /**
+     * 用户名，可用于登录
+     */
     private String username;
 
+    /**
+     * 登录使用的密码，使用MD5加密
+     */
     private String password;
 
+    /**
+     * 用户手机号
+     */
     private String phone;
 
+    /**
+     * 用户Email
+     */
     private String email;
 
-    private Byte isVerified;
+    /**
+     * 当前用户账号是否被验证(手机验证)
+     */
+    private int isVerified;
 
     public Long getId() {
         return id;
@@ -56,11 +74,11 @@ public class UserLoginInfo {
         this.email = email == null ? null : email.trim();
     }
 
-    public Byte getIsVerified() {
+    public int getIsVerified() {
         return isVerified;
     }
 
-    public void setIsVerified(Byte isVerified) {
+    public void setIsVerified(int isVerified) {
         this.isVerified = isVerified;
     }
 }

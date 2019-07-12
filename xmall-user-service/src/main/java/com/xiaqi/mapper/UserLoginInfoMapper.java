@@ -2,16 +2,42 @@ package com.xiaqi.mapper;
 
 import com.xiaqi.entity.UserLoginInfo;
 
+/**
+ * 用户登录信息实体Mapper接口
+ */
 public interface UserLoginInfoMapper {
+    /**
+     * 根据id删除指定用户
+     * @param id 被删除用户的id
+     * @return 影响行数
+     */
     int deleteByPrimaryKey(Long id);
 
-    int insert(UserLoginInfo record);
+    /**
+     * 新增用户登录信息
+     * @param userLoginInfo 被新增的用户登录信息
+     * @return 影响行数
+     */
+    int insert(UserLoginInfo userLoginInfo);
 
-    int insertSelective(UserLoginInfo record);
-
+    /**
+     * 根据id查询用户登录信息
+     * @param id 用户id
+     * @return 用户登录信息
+     */
     UserLoginInfo selectByPrimaryKey(Long id);
 
-    int updateByPrimaryKeySelective(UserLoginInfo record);
+    /**
+     * 根据id选择性的更新用户登录信息
+     * @param userLoginInfo 需要进行更新的用户登录信息，需指定id，以及需要更新的字段，不更新置为null
+     * @return 影响行数
+     */
+    int updateByPrimaryKeySelective(UserLoginInfo userLoginInfo);
 
-    int updateByPrimaryKey(UserLoginInfo record);
+    /**
+     * 根据id更新用户登录信息
+     * @param userLoginInfo 需要进行更新的用户登录信息，需指定id，以及需要所有字段的值
+     * @return 影响行数
+     */
+    int updateByPrimaryKey(UserLoginInfo userLoginInfo);
 }
