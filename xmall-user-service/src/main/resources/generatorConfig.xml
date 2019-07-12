@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <classPathEntry location="C:\Maven\maven-local\maven-repository\mysql\mysql-connector-java\5.1.46\mysql-connector-java-5.1.46.jar" />
+
+
+    <context id="mysql" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressDate" value="false"/>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/xmall"
+                        userId="root"
+                        password="123456">
+        </jdbcConnection>
+
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="com.xiaqi.entity" targetProject="C:\gitRepo\xmall\xmall-user-service\src\main\java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <!-- Mapper xml file-->
+        <sqlMapGenerator targetPackage="com.xiaqi.mapper"  targetProject="C:\gitRepo\xmall\xmall-user-service\src\main\resources">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <!--  Java Mapper Interface -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.xiaqi.mapper"  targetProject="C:\gitRepo\xmall\xmall-user-service\src\main\java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <!-- table user_login_info -->
+        <table schema="xmall" tableName="user_login_info" domainObjectName="UserLoginInfo"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+            <property name="useActualColumnNames" value="true"/>
+            <generatedKey column="id" sqlStatement="MySql" identity="true" />
+        </table>
+
+        <!--<table schema="xmall" tableName="user_detail" domainObjectName="UserDetail"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+            <property name="useActualColumnNames" value="true"/>
+        </table>-->
+
+    </context>
+</generatorConfiguration>

@@ -7,11 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="xmall-order-service" />
+        <module name="xmall-product-service" />
+        <module name="xmall-user-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="xmall-order-service" target="1.8" />
       <module name="xmall-parent" target="1.8" />
+      <module name="xmall-product-service" target="1.8" />
       <module name="xmall-user-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
