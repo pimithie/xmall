@@ -2,6 +2,8 @@ package com.xiaqi.mapper;
 
 import com.xiaqi.entity.UserLoginInfo;
 
+import java.util.List;
+
 /**
  * 用户登录信息实体Mapper接口
  */
@@ -40,4 +42,17 @@ public interface UserLoginInfoMapper {
      * @return 影响行数
      */
     int updateByPrimaryKey(UserLoginInfo userLoginInfo);
+
+    /**
+     * 获取所有用户的登录信息
+     * @return 所有的用户登录信息
+     */
+    List<UserLoginInfo> getAllUsersLoginInfo();
+
+    /**
+     * 根据用户名查询用户登录信息
+     * @param username 指定的用户名
+     * @return 用户登录信息
+     */
+    UserLoginInfo selectByUsername(String username);
 }

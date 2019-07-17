@@ -12,16 +12,30 @@
   <sql id="Base_Column_List">
     id, username, password, phone, email, isVerified
   </sql>
+
   <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
     select 
     <include refid="Base_Column_List" />
     from user_login_info
     where id = #{id,jdbcType=BIGINT}
   </select>
+
+    <select id="getAllUsersLoginInfo" resultType="com.xiaqi.entity.UserLoginInfo">
+        select <include refid="Base_Column_List"/>
+        from user_login_info
+    </select>
+
+  <select id="selectByUsername" resultType="com.xiaqi.entity.UserLoginInfo" parameterType="string">
+        select <include refid="Base_Column_List"/>
+        from user_login_info
+        where username = #{username}
+  </select>
+
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
     delete from user_login_info
     where id = #{id,jdbcType=BIGINT}
   </delete>
+
   <insert id="insert" parameterType="com.xiaqi.entity.UserLoginInfo">
     <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Long">
       SELECT LAST_INSERT_ID()
@@ -53,6 +67,7 @@
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
+
   <update id="updateByPrimaryKey" parameterType="com.xiaqi.entity.UserLoginInfo">
     update user_login_info
     set username = #{username,jdbcType=VARCHAR},
