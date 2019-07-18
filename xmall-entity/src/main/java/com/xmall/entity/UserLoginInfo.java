@@ -1,4 +1,4 @@
-package com.xiaqi.entity;
+package com.xmall.entity;
 
 /**
  * 用户登录信息实体，对应表：user_login_info

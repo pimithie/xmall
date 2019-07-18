@@ -1,9 +1,9 @@
 package com.xiaqi.service.impl;
 
-import com.xiaqi.bean.Message;
-import com.xiaqi.entity.UserLoginInfo;
 import com.xiaqi.mapper.UserLoginInfoMapper;
-import com.xiaqi.service.UserService;
+import com.xmall.bean.Message;
+import com.xmall.entity.UserLoginInfo;
+import com.xmall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

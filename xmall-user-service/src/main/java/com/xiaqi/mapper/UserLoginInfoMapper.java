@@ -1,6 +1,7 @@
 package com.xiaqi.mapper;
 
-import com.xiaqi.entity.UserLoginInfo;
+
+import com.xmall.entity.UserLoginInfo;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package com.xiaqi.service;
+package com.xmall.service;
 
-import com.xiaqi.bean.Message;
-import com.xiaqi.entity.UserLoginInfo;
+import com.xmall.bean.Message;
+import com.xmall.entity.UserLoginInfo;
 
 /**
  * @author xiaqi

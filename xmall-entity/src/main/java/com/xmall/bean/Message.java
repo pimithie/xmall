@@ -1,4 +1,4 @@
-package com.xiaqi.bean;
+package com.xmall.bean;
 
 import java.util.Objects;
 
