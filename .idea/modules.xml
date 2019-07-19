@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/xmall.iml" filepath="$PROJECT_DIR$/.idea/xmall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xmall-api/xmall-api.iml" filepath="$PROJECT_DIR$/xmall-api/xmall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xmall-entity/xmall-entity.iml" filepath="$PROJECT_DIR$/xmall-entity/xmall-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/xmall-order-service/xmall-order-service.iml" filepath="$PROJECT_DIR$/xmall-order-service/xmall-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/xmall-parent/xmall-parent.iml" filepath="$PROJECT_DIR$/xmall-parent/xmall-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/xmall-product-service/xmall-product-service.iml" filepath="$PROJECT_DIR$/xmall-product-service/xmall-product-service.iml" />
