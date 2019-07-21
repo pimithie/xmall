@@ -10,6 +10,7 @@
         <module name="xmall-entity" />
         <module name="xmall-order-service" />
         <module name="xmall-product-service" />
+        <module name="xmall-sso" />
         <module name="xmall-user-service" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="xmall-order-service" target="1.8" />
       <module name="xmall-parent" target="1.8" />
       <module name="xmall-product-service" target="1.8" />
+      <module name="xmall-sso" target="1.8" />
       <module name="xmall-user-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>

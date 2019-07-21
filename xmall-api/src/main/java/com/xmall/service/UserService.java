@@ -16,15 +16,17 @@ public interface UserService {
     Message getAllUsers();
 
     /**
-     * SSO?
-     * @return
-     */
-    Message login();
-
-    /**
      * 注册用户
      * @param userLoginInfo 用户注册信息
      * @return 响应实体
      */
     Message register(UserLoginInfo userLoginInfo);
+
+    /**
+     * 更新用户信息
+     * @param userLoginInfo 设置所需修改的信息，若某个属性不需要修改，则置为null
+     * @return 响应实体
+     */
+    Message updateUserLoginInfo(UserLoginInfo userLoginInfo);
+
 }

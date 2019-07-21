@@ -28,11 +28,6 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public Message login() {
-        return null;
-    }
-
-    @Override
     public Message register(UserLoginInfo userLoginInfo) {
         Message message = new Message();
         // 查询用户是否已经存在
@@ -46,5 +41,20 @@ public class UserServiceImpl implements UserService {
         message.setCode(200);
         message.setMessage("注册成功!");
         return message;
+    }
+
+    @Override
+    public Message updateUserLoginInfo(UserLoginInfo userLoginInfo) {
+        Message message = new Message();
+        try {
+            userLoginInfoMapper.updateByPrimaryKeySelective(userLoginInfo);
+            message.setCode(200);
+            message.setMessage("更新用户信息成功");
+            return message;
+        } catch (Exception e) {
+            message.setCode(400);
+            message.setMessage("更新用户信息失败");
+            return message;
+        }
     }
 }

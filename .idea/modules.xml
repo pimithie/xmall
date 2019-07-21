@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/xmall-order-service/xmall-order-service.iml" filepath="$PROJECT_DIR$/xmall-order-service/xmall-order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/xmall-parent/xmall-parent.iml" filepath="$PROJECT_DIR$/xmall-parent/xmall-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/xmall-product-service/xmall-product-service.iml" filepath="$PROJECT_DIR$/xmall-product-service/xmall-product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xmall-sso/xmall-sso.iml" filepath="$PROJECT_DIR$/xmall-sso/xmall-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/xmall-user-service/xmall-user-service.iml" filepath="$PROJECT_DIR$/xmall-user-service/xmall-user-service.iml" />
     </modules>
   </component>

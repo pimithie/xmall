@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/xmall-product-service/pom.xml" />
         <option value="$PROJECT_DIR$/xmall-api/pom.xml" />
         <option value="$PROJECT_DIR$/xmall-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/xmall-sso/pom.xml" />
       </list>
     </option>
   </component>
