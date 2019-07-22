@@ -3,7 +3,7 @@ package com.xmall.bean;
 import java.util.Objects;
 
 /**
- * @author xiaqi
+ * @author xmall
  * @date 2019/7/16
  */
 public class Message {

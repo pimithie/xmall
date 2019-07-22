@@ -5,9 +5,9 @@ import com.xmall.entity.UserLoginInfo;
 
 /**
  * @author xiaqi
- * @date 2019/7/16
+ * @date 2019/7/22
  */
-public interface UserService {
+public interface UserInfoService {
 
     /**
      * 读取所有的用户信息

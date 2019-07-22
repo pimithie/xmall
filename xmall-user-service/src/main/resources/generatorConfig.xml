@@ -23,18 +23,18 @@
             <property name="forceBigDecimals" value="false" />
         </javaTypeResolver>
 
-        <javaModelGenerator targetPackage="com.xiaqi.entity" targetProject="C:\gitRepo\xmall\xmall-user-service\src\main\java">
+        <javaModelGenerator targetPackage="com.xmall.entity" targetProject="C:\gitRepo\xmall\xmall-user-service\src\main\java">
             <property name="enableSubPackages" value="true" />
             <property name="trimStrings" value="true" />
         </javaModelGenerator>
 
         <!-- Mapper xml file-->
-        <sqlMapGenerator targetPackage="com.xiaqi.mapper"  targetProject="C:\gitRepo\xmall\xmall-user-service\src\main\resources">
+        <sqlMapGenerator targetPackage="com.xmall.mapper" targetProject="C:\gitRepo\xmall\xmall-user-service\src\main\resources">
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>
 
         <!--  Java Mapper Interface -->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.xiaqi.mapper"  targetProject="C:\gitRepo\xmall\xmall-user-service\src\main\java">
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.xmall.mapper" targetProject="C:\gitRepo\xmall\xmall-user-service\src\main\java">
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 

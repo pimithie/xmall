@@ -1,4 +1,4 @@
-package com.xiaqi.mapper;
+package com.xmall.mapper;
 
 
 import com.xmall.entity.UserLoginInfo;

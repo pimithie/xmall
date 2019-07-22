@@ -1,19 +1,20 @@
-package com.xiaqi.service.impl;
+package com.xmall.service.impl;
 
-import com.xiaqi.mapper.UserLoginInfoMapper;
+import com.xmall.mapper.UserLoginInfoMapper;
 import com.xmall.bean.Message;
 import com.xmall.entity.UserLoginInfo;
-import com.xmall.service.UserService;
+import com.xmall.service.UserInfoService;
+import com.xmall.service.UserLoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * @author xiaqi
+ * @author xmall
  * @date 2019/7/16
  */
 
 @Service
-public class UserServiceImpl implements UserService {
+public class UserInfoServiceImpl implements UserInfoService {
 
     @Autowired
     private UserLoginInfoMapper userLoginInfoMapper;

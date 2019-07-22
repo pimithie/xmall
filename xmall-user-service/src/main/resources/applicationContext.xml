@@ -5,16 +5,16 @@
        xmlns:mybatis="http://mybatis.org/schema/mybatis-spring"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd">
 
-    <context:component-scan base-package="com.xiaqi"/>
+    <context:component-scan base-package="com.xmall"/>
 
     <context:property-placeholder location="jdbc.properties"/>
 
     <!-- 扫描所有的Mapper -->
-    <mybatis:scan base-package="com.xiaqi.mapper"/>
+    <mybatis:scan base-package="com.xmall.mapper"/>
 
     <bean name="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
-        <property name="typeAliasesPackage" value="com.xiaqi.entity"/>
+        <property name="typeAliasesPackage" value="com.xmall.entity"/>
         <property name="configuration">
             <bean class="org.apache.ibatis.session.Configuration">
                 <property name="mapUnderscoreToCamelCase" value="true"/>
