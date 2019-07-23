@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac2de0f5-c2a1-4fde-8187-ae119d3d4abb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/xmall-sso/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmall-sso/src/main/resources/com.xmall.mapper/UserLoginInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmall-sso/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmall-user-service/src/test/java/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmall-api/src/main/java/com/xmall/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmall-api/src/main/java/com/xmall/service/UserLoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmall-sso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmall-sso/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmall-user-service/src/main/java/com/xiaqi/mapper/UserLoginInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmall-sso/src/main/java/xiaqi/mapper/UserLoginInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmall-user-service/src/main/java/com/xiaqi/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmall-sso/src/main/java/xiaqi/service/impl/UserLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmall-sso/src/main/java/com/xmall/mapper/UserLoginInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmall-sso/src/main/java/com/xmall/mapper/UserLoginInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmall-sso/src/main/java/com/xmall/service/impl/UserLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xmall-sso/src/main/java/com/xmall/service/impl/UserLoginServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/xmall-parent/target/" />
     <ignored path="$PROJECT_DIR$/xmall-user/target/" />
@@ -26,50 +28,50 @@
     <session id="2025350036">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.36" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="35" />
+          <entry key="java" value="43" />
           <entry key="md" value="1" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="28" />
+          <entry key="xml" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="35" />
+          <entry key="JAVA" value="43" />
           <entry key="Markdown" value="1" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="28" />
+          <entry key="XML" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="java" value="1437" />
+          <entry key="java" value="1929" />
           <entry key="properties" value="5" />
-          <entry key="xml" value="825" />
+          <entry key="xml" value="826" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1437" />
+          <entry key="JAVA" value="1929" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="Properties" value="5" />
           <entry key="SQL" value="14" />
-          <entry key="XML" value="811" />
+          <entry key="XML" value="812" />
         </counts>
       </usages-collector>
     </session>
@@ -77,33 +79,38 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xmall-api/src/main/java/com/xmall/service/UserLoginService.java">
+        <entry file="file://$PROJECT_DIR$/xmall-sso/src/main/java/com/xmall/service/impl/UserLoginServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xmall-user-service/src/main/java/com/xmall/service/impl/UserLoginServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xmall-user-service/src/main/java/com/xmall/mapper/UserLoginInfoMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="437">
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xmall-sso/pom.xml">
+        <entry file="file://$PROJECT_DIR$/xmall-sso/src/main/java/com/xmall/mapper/UserLoginInfoMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+            <state relative-caret-position="420">
+              <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xmall-sso/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xmall-sso/src/main/resources/com.xmall.mapper/UserLoginInfoMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -113,8 +120,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -150,12 +157,17 @@
         <option value="$PROJECT_DIR$/xmall-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/xmall-user-service/src/test/java/com/xiaqi/test/Test1.java" />
         <option value="$PROJECT_DIR$/xmall-user-service/src/main/java/com/xiaqi/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/xmall-user-service/src/test/java/Test1.java" />
         <option value="$PROJECT_DIR$/xmall-api/src/main/java/com/xmall/service/UserService.java" />
         <option value="$PROJECT_DIR$/xmall-sso/src/main/java/xiaqi/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/xmall-user-service/src/main/java/xiaqi/mapper/UserLoginInfoMapper.java" />
         <option value="$PROJECT_DIR$/xmall-user-service/src/main/java/com/xmall/mapper/UserLoginInfoMapper.java" />
         <option value="$PROJECT_DIR$/xmall-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/xmall-api/src/main/java/com/xmall/service/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/xmall-api/src/main/java/com/xmall/service/UserLoginService.java" />
+        <option value="$PROJECT_DIR$/xmall-user-service/src/main/java/com/xmall/service/impl/UserLoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/xmall-user-service/src/test/java/Test1.java" />
+        <option value="$PROJECT_DIR$/xmall-sso/src/main/java/com/xmall/mapper/UserLoginInfoMapper.java" />
+        <option value="$PROJECT_DIR$/xmall-sso/src/main/java/com/xmall/service/impl/UserLoginServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -215,6 +227,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,6 +328,23 @@
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="xmall-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="xmall-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com.xmall.mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
               <item name="xmall-user-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -346,18 +376,42 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="xmall-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="xmall-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="xmall-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563809451450" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563896387767" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/xmall-user-service/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -374,6 +428,7 @@
       <recent name="com.xmall.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\gitRepo\xmall\xmall-sso\src\main\resources" />
       <recent name="C:\gitRepo\xmall\xmall-user-service\src\main\java" />
       <recent name="C:\gitRepo\xmall\xmall-sso\src\main\java" />
       <recent name="C:\gitRepo\xmall\xmall-user-service\src\main\resources" />
@@ -445,7 +500,8 @@
       <workItem from="1563547742228" duration="1593000" />
       <workItem from="1563591929449" duration="4753000" />
       <workItem from="1563681878205" duration="6027000" />
-      <workItem from="1563773909065" duration="4650000" />
+      <workItem from="1563773909065" duration="5522000" />
+      <workItem from="1563854215956" duration="4116000" />
     </task>
     <servers />
   </component>
@@ -465,15 +521,24 @@
     <history-entry file="Test1_(1) - 2019.07.22 at 17h 42m 26s.xml">
       <configuration name="Test1 (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test1_(1) - 2019.07.23 at 12h 24m 37s.xml">
+      <configuration name="Test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_(1) - 2019.07.23 at 12h 28m 05s.xml">
+      <configuration name="Test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_(1) - 2019.07.23 at 12h 29m 19s.xml">
+      <configuration name="Test1 (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27030000" />
+    <option name="totallyTimeSpent" value="32018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2549168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -488,7 +553,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.329582" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.48796147" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3762058" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
@@ -618,13 +683,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xmall-user-service/src/test/java/com/xiaqi/test/Test1.java" />
-    <entry file="file://$PROJECT_DIR$/xmall-user-service/src/main/java/com/xiaqi/mapper/UserLoginInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xmall-user-service/src/main/java/com/xiaqi/mapper/UserLoginInfoMapper.java" />
     <entry file="file://$PROJECT_DIR$/xmall-user-service/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -650,26 +709,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmall-user-service/src/test/java/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmall-user-service/src/main/java/com/xiaqi/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmall-sso/src/main/java/com/xmall/mapper/UserLoginInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xmall-user-service/src/main/java/com/xiaqi/service/impl/UserServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/xmall-user-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="734">
@@ -677,34 +717,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmall-sso/src/main/java/com/xmall/service/impl/UserLoginServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/xmall-user-service/src/main/java/com/xmall/mapper/UserLoginInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="114">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmall-api/src/main/java/com/xmall/service/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xmall-api/src/main/java/com/xmall/service/UserLoginService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="152">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmall-user-service/src/main/java/com/xmall/service/impl/UserLoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmall-user-service/src/main/java/com/xmall/mapper/UserLoginInfoMapper.java">
+    <entry file="file://$PROJECT_DIR$/xmall-user-service/src/main/java/com/xmall/service/impl/UserInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="190">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="116" column="37" lean-forward="true" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmall-user-service/src/test/java/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="85" column="1" lean-forward="true" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="3234" column="25" selection-start-line="3234" selection-start-column="25" selection-end-line="3234" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xmall-sso/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+        <state relative-caret-position="1109">
+          <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmall-sso/src/main/java/com/xmall/service/impl/UserLoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmall-sso/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmall-sso/src/main/resources/com.xmall.mapper/UserLoginInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmall-sso/src/main/java/com/xmall/mapper/UserLoginInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
         </state>
       </provider>
     </entry>

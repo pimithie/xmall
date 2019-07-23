@@ -2,6 +2,7 @@ package com.xmall.mapper;
 
 
 import com.xmall.entity.UserLoginInfo;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -56,4 +57,12 @@ public interface UserLoginInfoMapper {
      * @return 用户登录信息
      */
     UserLoginInfo selectByUsername(String username);
+
+    /**
+     * 根据用户名和用户名查询用户登录信息
+     * @param username 指定的用户名
+     * @param password 指定的密码
+     * @return 用户登录信息
+     */
+    UserLoginInfo selectByUsernameAndPassword(@Param("username") String username, @Param("password")String password);
 }
