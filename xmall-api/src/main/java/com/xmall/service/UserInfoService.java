@@ -29,4 +29,18 @@ public interface UserInfoService {
      */
     Message updateUserLoginInfo(UserLoginInfo userLoginInfo);
 
+    /**
+     * 根据电话(11位)查找用户信息
+     * @param phone 用户电话
+     * @return 响应实体
+     */
+    Message selectByPhone(String phone);
+
+    /**
+     * 根据邮箱查找用户信息
+     * @param email 用户邮箱
+     * @return 响应实体
+     */
+    Message selectByEmail(String email);
+
 }

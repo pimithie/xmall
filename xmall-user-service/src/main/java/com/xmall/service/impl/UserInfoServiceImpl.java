@@ -58,4 +58,14 @@ public class UserInfoServiceImpl implements UserInfoService {
             return message;
         }
     }
+
+    @Override
+    public Message selectByPhone(String phone) {
+        return null;
+    }
+
+    @Override
+    public Message selectByEmail(String email) {
+        return null;
+    }
 }
