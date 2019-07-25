@@ -53,6 +53,7 @@ public class UserInfoServiceImpl implements UserInfoService {
             message.setMessage("更新用户信息成功");
             return message;
         } catch (Exception e) {
+            e.printStackTrace();
             message.setCode(400);
             message.setMessage("更新用户信息失败");
             return message;
@@ -61,11 +62,35 @@ public class UserInfoServiceImpl implements UserInfoService {
 
     @Override
     public Message selectByPhone(String phone) {
-        return null;
+        Message message = new Message();
+        try {
+            UserLoginInfo userLoginInfo = userLoginInfoMapper.selectByPhone(phone);
+            message.setCode(200);
+            message.setMessage("查询成功");
+            message.setData(userLoginInfo);
+            return message;
+        } catch (Exception e) {
+            e.printStackTrace();
+            message.setCode(500);
+            message.setMessage("服务器异常");
+            return message;
+        }
     }
 
     @Override
     public Message selectByEmail(String email) {
-        return null;
+        Message message = new Message();
+        try {
+            UserLoginInfo userLoginInfo = userLoginInfoMapper.selectByEmail(email);
+            message.setCode(200);
+            message.setMessage("查询成功");
+            message.setData(userLoginInfo);
+            return message;
+        } catch (Exception e) {
+            e.printStackTrace();
+            message.setCode(500);
+            message.setMessage("服务器异常");
+            return message;
+        }
     }
 }

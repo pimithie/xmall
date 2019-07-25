@@ -56,4 +56,18 @@ public interface UserLoginInfoMapper {
      * @return 用户登录信息
      */
     UserLoginInfo selectByUsername(String username);
+
+    /**
+     * 根据电话号码查询用户登录信息
+     * @param username 指定的电话号码
+     * @return 用户登录信息
+     */
+    UserLoginInfo selectByPhone(String username);
+
+    /**
+     * 根据邮箱查询用户登录信息
+     * @param username 指定的邮箱
+     * @return 用户登录信息
+     */
+    UserLoginInfo selectByEmail(String username);
 }
