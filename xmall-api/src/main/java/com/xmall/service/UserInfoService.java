@@ -43,4 +43,11 @@ public interface UserInfoService {
      */
     Message selectByEmail(String email);
 
+    /**
+     * 根据token去redis中取"session"的中当前用户，判断是否进行了验证
+     * @param token 用户登录token
+     * @return 响应实体
+     */
+    Message checkUserIsVerified(String token);
+
 }

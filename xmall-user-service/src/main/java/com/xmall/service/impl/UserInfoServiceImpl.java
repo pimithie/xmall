@@ -93,4 +93,9 @@ public class UserInfoServiceImpl implements UserInfoService {
             return message;
         }
     }
+
+    @Override
+    public Message checkUserIsVerified(String token) {
+        return null;
+    }
 }
