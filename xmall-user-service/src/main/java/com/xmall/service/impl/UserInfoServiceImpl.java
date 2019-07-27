@@ -96,6 +96,19 @@ public class UserInfoServiceImpl implements UserInfoService {
 
     @Override
     public Message checkUserIsVerified(String token) {
-        return null;
+        Message message = new Message();
+        try {
+            // TODO:根据token，从redis session中取得当前用户登录信息
+            UserLoginInfo userLoginInfo = null;
+            message.setCode(200);
+            message.setMessage("查询成功");
+            message.setData(userLoginInfo);
+            return message;
+        } catch (Exception e) {
+            e.printStackTrace();
+            message.setCode(500);
+            message.setMessage("服务器异常");
+            return message;
+        }
     }
 }
