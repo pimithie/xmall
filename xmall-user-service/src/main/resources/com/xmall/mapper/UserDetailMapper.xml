@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xmall.mapper.UserDetailMapper">
+  <resultMap id="BaseResultMap" type="com.xmall.entity.UserDetail">
+    <id column="userId" jdbcType="BIGINT" property="userId" />
+    <result column="brithday" jdbcType="DATE" property="brithday" />
+    <result column="gender" jdbcType="TINYINT" property="gender" />
+    <result column="registerTime" jdbcType="TIMESTAMP" property="registerTime" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="headPicture" jdbcType="VARCHAR" property="headPicture" />
+    <result column="points" jdbcType="BIGINT" property="points" />
+    <result column="money" jdbcType="DECIMAL" property="money" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    userId, brithday, gender, registerTime, nickname, headPicture, points, money
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from user_detail
+    where userId = #{userId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from user_detail
+    where userId = #{userId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.xmall.entity.UserDetail">
+    insert into user_detail (userId, brithday, gender, 
+      registerTime, nickname, headPicture, 
+      points, money)
+    values (#{userId,jdbcType=BIGINT}, #{brithday,jdbcType=DATE}, #{gender,jdbcType=TINYINT}, 
+      #{registerTime,jdbcType=TIMESTAMP}, #{nickname,jdbcType=VARCHAR}, #{headPicture,jdbcType=VARCHAR}, 
+      #{points,jdbcType=BIGINT}, #{money,jdbcType=DECIMAL})
+  </insert>
+  <insert id="insertSelective" parameterType="com.xmall.entity.UserDetail">
+    insert into user_detail
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        userId,
+      </if>
+      <if test="brithday != null">
+        brithday,
+      </if>
+      <if test="gender != null">
+        gender,
+      </if>
+      <if test="registerTime != null">
+        registerTime,
+      </if>
+      <if test="nickname != null">
+        nickname,
+      </if>
+      <if test="headPicture != null">
+        headPicture,
+      </if>
+      <if test="points != null">
+        points,
+      </if>
+      <if test="money != null">
+        money,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="brithday != null">
+        #{brithday,jdbcType=DATE},
+      </if>
+      <if test="gender != null">
+        #{gender,jdbcType=TINYINT},
+      </if>
+      <if test="registerTime != null">
+        #{registerTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="nickname != null">
+        #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="headPicture != null">
+        #{headPicture,jdbcType=VARCHAR},
+      </if>
+      <if test="points != null">
+        #{points,jdbcType=BIGINT},
+      </if>
+      <if test="money != null">
+        #{money,jdbcType=DECIMAL},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.xmall.entity.UserDetail">
+    update user_detail
+    <set>
+      <if test="brithday != null">
+        brithday = #{brithday,jdbcType=DATE},
+      </if>
+      <if test="gender != null">
+        gender = #{gender,jdbcType=TINYINT},
+      </if>
+      <if test="registerTime != null">
+        registerTime = #{registerTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="nickname != null">
+        nickname = #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="headPicture != null">
+        headPicture = #{headPicture,jdbcType=VARCHAR},
+      </if>
+      <if test="points != null">
+        points = #{points,jdbcType=BIGINT},
+      </if>
+      <if test="money != null">
+        money = #{money,jdbcType=DECIMAL},
+      </if>
+    </set>
+    where userId = #{userId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.xmall.entity.UserDetail">
+    update user_detail
+    set brithday = #{brithday,jdbcType=DATE},
+      gender = #{gender,jdbcType=TINYINT},
+      registerTime = #{registerTime,jdbcType=TIMESTAMP},
+      nickname = #{nickname,jdbcType=VARCHAR},
+      headPicture = #{headPicture,jdbcType=VARCHAR},
+      points = #{points,jdbcType=BIGINT},
+      money = #{money,jdbcType=DECIMAL}
+    where userId = #{userId,jdbcType=BIGINT}
+  </update>
+</mapper>

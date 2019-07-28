@@ -39,20 +39,20 @@
         </javaClientGenerator>
 
         <!-- table user_login_info -->
-        <table schema="xmall" tableName="user_login_info" domainObjectName="UserLoginInfo"
-               enableCountByExample="false" enableUpdateByExample="false"
-               enableDeleteByExample="false" enableSelectByExample="false"
-               selectByExampleQueryId="false">
-            <property name="useActualColumnNames" value="true"/>
-            <generatedKey column="id" sqlStatement="MySql" identity="true" />
-        </table>
+        <!--<table schema="xmall" tableName="user_login_info" domainObjectName="UserLoginInfo"-->
+               <!--enableCountByExample="false" enableUpdateByExample="false"-->
+               <!--enableDeleteByExample="false" enableSelectByExample="false"-->
+               <!--selectByExampleQueryId="false">-->
+            <!--<property name="useActualColumnNames" value="true"/>-->
+            <!--<generatedKey column="id" sqlStatement="MySql" identity="true" />-->
+        <!--</table>-->
 
-        <!--<table schema="xmall" tableName="user_detail" domainObjectName="UserDetail"
+        <table schema="xmall" tableName="user_detail" domainObjectName="UserDetail"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
             <property name="useActualColumnNames" value="true"/>
-        </table>-->
+        </table>
 
     </context>
 </generatorConfiguration>
