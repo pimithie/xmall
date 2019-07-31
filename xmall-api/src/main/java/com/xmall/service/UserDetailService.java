@@ -14,20 +14,20 @@ public interface UserDetailService {
      * @param userId 指定的userId
      * @return 响应实体
      */
-    Message getUserDetailInfoById(Long userId);
+    UserDetail getUserDetailInfoById(Long userId);
 
     /**
      * 新增用户详细信息
      * @param userDetail 新增的用户详细信息userDetail
      * @return 响应实体
      */
-    Message insert(UserDetail userDetail);
+    boolean insert(UserDetail userDetail);
 
     /**
      * 更新用户详细信息
      * @param userDetail 更新的用户详细信息userDetail
      * @return 响应实体
      */
-    Message update(UserDetail userDetail);
+    boolean update(UserDetail userDetail);
 
 }
