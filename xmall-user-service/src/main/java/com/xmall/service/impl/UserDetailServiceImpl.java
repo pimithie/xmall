@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
+ * 用户详细信息服务接口实现
  * @author xiaqi
  * @date 2019/7/30
  */

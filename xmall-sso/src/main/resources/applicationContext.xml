@@ -29,4 +29,12 @@
         <property name="password" value="${jdbc.password}"/>
     </bean>
 
+    <bean name="JedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+        <property name="usePool" value="true"/>
+    </bean>
+
+    <bean name="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
+        <property name="connectionFactory" ref="JedisConnectionFactory"/>
+    </bean>
+
 </beans>
