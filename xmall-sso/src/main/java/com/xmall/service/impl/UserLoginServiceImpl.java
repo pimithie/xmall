@@ -4,8 +4,11 @@ import com.xmall.bean.Message;
 import com.xmall.entity.UserLoginInfo;
 import com.xmall.service.UserLoginService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import com.xmall.mapper.UserLoginInfoMapper;
+
+import java.util.Map;
 
 /**
  * @author xmall
@@ -18,6 +21,8 @@ public class UserLoginServiceImpl implements UserLoginService {
     @Autowired
     private UserLoginInfoMapper userLoginInfoMapper;
 
+    @Autowired
+    private RedisTemplate<String, Map<Object,Object>> redisTemplate;
 
     @Override
     public Message login(String username, String password, String checkCode) {
