@@ -32,10 +32,15 @@
     <!-- 访问redis -->
     <bean name="JedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
         <property name="usePool" value="true"/>
+        <property name="hostName" value="47.102.201.31"/>
+        <property name="port" value="6379"/>
     </bean>
+
+    <bean name="stringRedisSerializer" class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
 
     <bean name="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
         <property name="connectionFactory" ref="JedisConnectionFactory"/>
+        <property name="defaultSerializer" ref="stringRedisSerializer"/>
     </bean>
 
 </beans>
