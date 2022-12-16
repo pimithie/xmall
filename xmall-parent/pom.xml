@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <spring-version>4.3.22.RELEASE</spring-version>
+        <spring-version>5.2.20.RELEASE</spring-version>
         <druid-version>1.1.10</druid-version>
         <fastjson-version>1.2.8</fastjson-version>
         <mybatis-version>3.4.2</mybatis-version>
